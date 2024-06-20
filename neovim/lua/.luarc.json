@@ -1,0 +1,27 @@
+{
+    "workspace.library": [
+        "/root/.config/nvim",
+        "/root/.local/share/nvim/lazy/lazy.nvim",
+        "/root/.local/share/nvim/lazy/nvim-lspconfig",
+        "/root/.local/share/nvim/lazy/mason.nvim",
+        "/root/.local/share/nvim/lazy/mason-lspconfig.nvim",
+        "/root/.local/share/nvim/lazy/telescope.nvim",
+        "/root/.local/share/nvim/lazy/which-key.nvim",
+        "/root/.local/share/nvim/lazy/nvim-web-devicons",
+        "/root/.local/share/nvim/lazy/lualine.nvim",
+        "/root/.local/share/nvim/lazy/neotest-go",
+        "/root/.local/share/nvim/lazy/FixCursorHold.nvim",
+        "/root/.local/share/nvim/lazy/nvim-treesitter",
+        "/root/.local/share/nvim/lazy/plenary.nvim",
+        "/root/.local/share/nvim/lazy/neotest",
+        "/root/.local/share/nvim/lazy/nightfly",
+        "/usr/share/nvim/runtime",
+        "/root/.local/state/nvim/lazy/readme",
+        "/root/.local/share/nvim/lazy/nightfly/after",
+        "${3rd}/luassert/library",
+        "${3rd}/luassert/library"
+    ],
+    "diagnostics.disable": [
+        "missing-fields"
+    ]
+}

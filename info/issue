@@ -1,0 +1,9 @@
+\n 
+OSImage: Ubuntu 22.04.3 LTS \n
+Kernel: Linux ubuntu22.04 5.15.90.1-microsoft-standard-WSL2\n
+HostName: Ubuntu 22.04.3 \n
+Cpu: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz\n
+CpuNumber: 8 \n
+Memory: 16GB \n
+UserName: root \n
+

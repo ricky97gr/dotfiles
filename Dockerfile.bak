@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+WORKDIR /root/
+RUN apt-get update -y && apt-get install software-properties-common -y && add-apt-repository ppa:neovim-ppa/unstable && apt-get update -y && apt-get install neovim -y && \
+apt-get install ranger -y && apt-get install -y zsh   && apt-get install ripgrep && apt install -y tmux && apt install -y fd-find && mv /usr/bin/fdfind /usr/bin/fd && apt install wget -y && apt install -y git && apt install -y gcc
+
+RUN git clone https://github.com/ricky97gr/dotfiles.git
+bash /root/dotfiles/scripts/install.sh
+
