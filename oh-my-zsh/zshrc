@@ -127,7 +127,7 @@ alias vim="nvim"
 alias nf="neofetch"
 alias uwt= "ntpdate time.windows.com"
 
-export hostip=$(cat /etc/resolv.conf | grep -oP '(?<=nameserver\ ).*')
+export hostip=`ip route show | grep -i default | awk '{ print $3}'`
 export localip=`ip addr  |grep eth0 | head -n3 | grep inet | awk '{print$2}' | cut -d '/' -f 1`
 
 
